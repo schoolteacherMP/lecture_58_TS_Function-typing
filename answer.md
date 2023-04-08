@@ -22,7 +22,8 @@
 
 ## Задача 5.   
 ### Тип unknown  
-![image](https://user-images.githubusercontent.com/113675674/230727553-5d3633cf-b597-4870-8965-b8dc9f0530dd.png)  
+![image](https://user-images.githubusercontent.com/113675674/230728220-4ac50f6b-f3bd-4acd-aad3-d9912a10d31e.png)  
+ 
 Здесь мы проверяем, что переданное значение является объектом (typeof value === 'object') и не является null (value !== null). Также мы проверяем, что переданное значение не является массивом (!Array.isArray(value)), потому что массивы в JavaScript также являются объектами.  
 
 Функция возвращает булевое значение true, если переданное значение является простым объектом, и false в противном случае.  
